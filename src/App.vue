@@ -20,6 +20,8 @@
 
 <style>
     body, html {
+        margin: 0;
+        padding: 0;
         font-family: 'ABeeZee', sans-serif;
     }
 </style>

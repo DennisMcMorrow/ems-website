@@ -1,16 +1,22 @@
 <template>
     <div class="home-view">
         <MainImage />
+        <HistorySection />
+        <OfficersSection />
         <!-- ... other content ... -->
     </div>
 </template>
 
 <script>
     import MainImage from '@/components/MainImage.vue';
+    import HistorySection from '@/components/HistorySection.vue';
+    import OfficersSection from "@/components/OfficersSection.vue";
 
     export default {
         components: {
-            MainImage
+            MainImage,
+            HistorySection,
+            OfficersSection,
         }
     };
 </script>
