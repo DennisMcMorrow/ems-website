@@ -2,6 +2,7 @@
     <section class="history-section">
         <div class="history-image">
             <img src="@/assets/history-image.png" alt="History Image" class="blur-image" />
+            <img src="@/assets/jackson-ems-logo.png" alt="Jackson EMS Logo" class="logo-image" />
             <div class="history-overlay">
                 <div class="history-list">
                     <ul>
@@ -21,21 +22,21 @@
                         many more visitors, especially during the summer months.
                     </p>
                     <p>
-                        In May, 1953, the First Aid Squad began with eight members, who ran a 
-                        total of twelve emergency calls that year in a second-hand ambulance. 
-                        Jackson had a population of approximately 3,500. Ten years later, by 1963, 
-                        the Squad had run 438 calls in a community of about 6,000 - an increase of 
-                        112 calls over the previous year. In May 1966, the new Squad building, which 
-                        had been built mostly by the members, was dedicated on what is now East Veteran's 
-                        Highway (and what was then simply Route 528 in Van Hiesville, Jackson Township). 
+                        In May, 1953, the First Aid Squad began with eight members, who ran a
+                        total of twelve emergency calls that year in a second-hand ambulance.
+                        Jackson had a population of approximately 3,500. Ten years later, by 1963,
+                        the Squad had run 438 calls in a community of about 6,000 - an increase of
+                        112 calls over the previous year. In May 1966, the new Squad building, which
+                        had been built mostly by the members, was dedicated on what is now East Veteran's
+                        Highway (and what was then simply Route 528 in Van Hiesville, Jackson Township).
                         The Squad still operates from this building, which has been expanded over the years.
                     </p>
                     <p>
-                        In 1969, development on the east side of Jackson lead to the construction 
-                        of the Squad's first sub-station, Station 2, on the corner of Larsen Road 
-                        and North New Prospect Road. Prior to Station 2's construction, an ambulance 
-                        had to be stationed a member's home to be available for calls in that portion 
-                        of the Town. By the Squad's 20th Anniversary, in 1973, calls totaled 1,084, 
+                        In 1969, development on the east side of Jackson lead to the construction
+                        of the Squad's first sub-station, Station 2, on the corner of Larsen Road
+                        and North New Prospect Road. Prior to Station 2's construction, an ambulance
+                        had to be stationed a member's home to be available for calls in that portion
+                        of the Town. By the Squad's 20th Anniversary, in 1973, calls totaled 1,084,
                         with the Squad operating as Jackson's sole emergency ambulance service, 24 hours a day, every day.
                     </p>
                 </div>
@@ -101,6 +102,14 @@
         color: white;
         padding: 250px; /* adjust later */
         padding-bottom: 30%; /* adjust later */
+    }
+
+    .logo-image {
+        position: absolute;
+        top: 20px; /* Adjust as needed */
+        right: 20px; /* Adjust as needed */
+        width: auto; /* Reset to auto */
+        height: 100px; /* Adjust as needed */
     }
 
     h2 {

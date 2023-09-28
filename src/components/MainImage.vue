@@ -52,6 +52,7 @@
     .main-image-wrapper {
         position: relative;
         overflow: hidden;
+        z-index: 2;
     }
 
         .main-image-wrapper::before {
