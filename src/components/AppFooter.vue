@@ -12,9 +12,8 @@
         <!-- Social media and donation icons -->
         <div class="social-icons">
             <a href="#" title="Donate via PayPal"><font-awesome-icon icon="money-bill" /></a>
-            <a href="https://www.facebook.com/JacksonEMS" target="_blank" title="Jackson EMS on Facebook"><font-awesome-icon :icon="['fab', 'facebook']" /></a>
-            <a href="https://twitter.com/JacksonEMS" target="_blank" title="Jackson EMS on Twitter"><font-awesome-icon :icon="['fab', 'twitter']" /></a>
-            <a href="https://www.instagram.com/JacksonEMS" target="_blank" title="Jackson EMS on Instagram"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
+            <a href="https://www.facebook.com/JTFAS/" target="_blank" title="Jackson EMS on Facebook"><font-awesome-icon :icon="['fab', 'facebook']" /></a>
+            <a href="https://www.instagram.com/jtems22/" target="_blank" title="Jackson EMS on Instagram"><font-awesome-icon :icon="['fab', 'instagram']" /></a>
         </div>
     </footer>
 </template>
@@ -40,9 +39,24 @@
         gap: 15px; /* A space between each link */
     }
 
-        .nav-links a, .social-icons a {
+        .nav-links a {
             color: white;
             text-decoration: none;
+            transition: color 0.3s;
+        }
+
+            .nav-links a:hover {
+                color: #0051a8; /* Darker blue on hover */
+            }
+
+    .social-icons a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+        .social-icons a:hover {
+            color: #0051a8; /* Darker blue on hover */
         }
 
     .social-icons {
